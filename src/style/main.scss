@@ -1,0 +1,36 @@
+@import "./history.scss";
+@import "./tutorial.scss";
+@import "./navigation.scss";
+@import "./home-text.scss";
+@import "./play-game.scss";
+
+// html {
+//   font-size: 75%; // 1rem is 10px
+//   color: goldenrod;
+// }
+
+// *,
+// *::after,
+// *::before {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: inherit;
+//   font-family: "montserrat";
+// }
+
+body {
+  overflow-x: hidden;
+  font-weight: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+  background-image: url(https://n86-64.github.io/assets/img/blog/Snake.jpg);
+  height: 100vh;
+  background-repeat: round;
+  background-size: auto;
+  margin-bottom: 66px;
+
+  margin: 0px;
+}

@@ -1,0 +1,66 @@
+.history-text {
+  display: flexbox;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 45px;
+  margin-right: -20px;
+  color: red;
+  background-color: black;
+  order: 1;
+}
+
+.programmer-company-wrapper {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.3fr;
+  margin-right: -20px;
+
+  .armanto-img {
+    order: 2;
+
+    img {
+      margin-top: 45px;
+      margin-right: -50px;
+      height: 85.5%;
+      width: 75%;
+    }
+  }
+
+  .programmer-history-text {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 45px;
+    margin-left: -90px;
+    margin-bottom: 20px;
+    color: red;
+    background-color: black;
+    order: 2;
+  }
+
+  .fun-fact {
+    margin-top: 145px;
+  }
+
+  .logo {
+    order: 2;
+
+    img {
+      margin-top: 45px;
+
+      // margin-left: 50px;
+      height: 85.5%;
+      width: 100%;
+    }
+  }
+}
+
+.other-titles-text {
+  display: flexbox;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 45px;
+  margin-right: -20px;
+  padding: 26px;
+  color: red;
+  background-color: black;
+  order: 3;
+}
