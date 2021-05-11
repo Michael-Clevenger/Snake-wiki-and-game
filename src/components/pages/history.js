@@ -1,6 +1,6 @@
 import React from "react";
 
-import Armanto from "../../photos/Armanto.jpg";
+import Armanto from "../../photos/armanto.jpg";
 import Logo from "../../photos/logo.png";
 
 export default function () {
