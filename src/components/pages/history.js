@@ -1,8 +1,5 @@
 import React from "react";
 
-import Armanto from "../../photos/armanto.jpg";
-import Logo from "../../photos/logo.png";
-
 export default function () {
   return (
     <div className="content-page-wrapper">

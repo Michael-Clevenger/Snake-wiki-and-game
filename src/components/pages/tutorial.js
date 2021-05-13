@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import snek from "../../photos/snek.jpg";
-import apple from "../../photos/apple.png";
-import gamer from "../../photos/controller.png";
 
 export default function () {
   return (
