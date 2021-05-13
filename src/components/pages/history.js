@@ -14,7 +14,10 @@ export default function () {
 
       <div className="programmer-company-wrapper">
         <div className="armanto-img">
-          <img src={Armanto} alt="programmer" />
+          <img
+            src="https://conteudo.imguol.com.br/c/noticias/2015/05/12/taneli-armanto-50-desenvolveu-o-snake-jogo-da-cobrinha-nos-celulares-nokia-na-decada-de-90-1431462319191_300x420.jpg.webp"
+            alt="armanto"
+          />
         </div>
 
         <div className="programmer-history-text">
@@ -37,7 +40,10 @@ export default function () {
         </div>
 
         <div className="logo">
-          <img src={Logo} alt="nokia-logo" />
+          <img
+            src="https://www.nokia.com/sites/default/files/styles/scale_543_x_375_gallery/public/media/nokia_white_logo.png"
+            alt="logo"
+          />
         </div>
       </div>
 

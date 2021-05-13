@@ -14,7 +14,10 @@ export default function () {
 
       <div className="snake-display-wrapper">
         <div className="snake-img">
-          <img src={snek} alt="user-snake" />
+          <img
+            src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/snakebites_what_you_need_to_know_slideshow/650x350_snakebites_what_you_need_to_know_slideshow.jpg"
+            alt="snek"
+          />
         </div>
 
         <div className="snake-text">
@@ -29,9 +32,11 @@ export default function () {
 
       <div className="apple-display-wrapper">
         <div className="fruit-img">
-          <img src={apple} alt="eat-this" />
+          <img
+            src="https://salixfruits.com/assets/img/apples-02.jpg"
+            alt="fruit"
+          />
         </div>
-
         <div className="apple-text">
           The apple is the chosen food of our intrepid critter. There is no
           specific button needed to munch on this little red treat. Just aim
@@ -41,7 +46,10 @@ export default function () {
 
       <div className="controls-display-wrapper">
         <div className="game-img">
-          <img src={gamer} alt="controls" />
+          <img
+            src="https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/03/XboxSeriesXController_Inline1.jpg?w=1200"
+            alt="controller"
+          />
         </div>
 
         <div className="controls-text">
