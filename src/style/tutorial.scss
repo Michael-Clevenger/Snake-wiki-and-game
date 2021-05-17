@@ -1,106 +1,124 @@
-.intro-text {
-  display: flexbox;
-  text-align: center;
-  font-size: 30px;
-  margin-top: 45px;
-  margin-right: -20px;
-  color: red;
-  background-color: black;
-  order: 1;
-}
-
-.snake-display-wrapper {
-  display: grid;
-  grid-template-columns: 0.3fr 1fr;
-  margin-right: -20px;
-
-  .snake-img {
-    order: 2;
-
-    img {
-      margin-top: 45px;
-      margin-right: -50px;
-      height: 79.6%;
-      width: 70%;
-    }
-  }
-
-  .snake-text {
-    text-align: center;
-    font-size: 22px;
-    margin-top: 45px;
-    margin-left: -145px;
-    padding: 50px;
-    color: red;
-    background-color: black;
-    order: 2;
-  }
-}
-
-.apple-display-wrapper {
-  display: grid;
-  grid-template-columns: 0.3fr 1fr;
-  margin-right: -20px;
-
-  .fruit-img {
-    order: 3;
-
-    img {
-      margin-top: 45px;
-      margin-right: -50px;
-      height: 88.3%;
-      width: 70%;
-    }
-  }
-
-  .apple-text {
-    text-align: center;
-    font-size: 22px;
-    margin-top: 45px;
-    margin-left: -145px;
-    padding: 125px;
-    color: red;
-    background-color: black;
-    order: 3;
-  }
-}
-
-.controls-display-wrapper {
-  display: grid;
-  grid-template-columns: 0.3fr 1fr;
-  margin-right: -20px;
-
-  .game-img {
-    order: 4;
-
-    img {
-      margin-top: 45px;
-      margin-right: -50px;
-      height: 79.5%;
-      width: 70%;
-    }
-  }
-
-  .controls-text {
+.content-page-wrapper {
+  .intro-text {
     display: flexbox;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     margin-top: 45px;
-    margin-left: -145px;
-    padding: 50px;
+    margin-right: -20px;
     color: red;
     background-color: black;
-    order: 4;
+    order: 1;
   }
-}
 
-.issued-challenge {
-  display: flexbox;
-  text-align: center;
-  font-size: 30px;
-  margin-top: 45px;
-  margin-right: -20px;
-  color: red;
-  background-color: black;
-  order: 5;
+  .snake-display-wrapper {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    margin-right: -20px;
+
+    .snake-img {
+      order: 2;
+
+      img {
+        margin-top: 45px;
+        margin-right: -50px;
+        height: 79.6%;
+        width: 70%;
+      }
+    }
+
+    .snake-text {
+      text-align: center;
+      font-size: 22px;
+      margin-top: 45px;
+      margin-left: -145px;
+      padding: 50px;
+      color: red;
+      background-color: black;
+      order: 2;
+    }
+  }
+
+  .apple-display-wrapper {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    margin-right: -20px;
+
+    .fruit-img {
+      order: 3;
+
+      img {
+        margin-top: 45px;
+        margin-right: -50px;
+        height: 88.5%;
+        width: 70%;
+      }
+    }
+
+    .apple-text {
+      text-align: center;
+      font-size: 22px;
+      margin-top: 45px;
+      margin-left: -145px;
+      padding: 125px;
+      color: red;
+      background-color: black;
+      order: 3;
+    }
+  }
+
+  .controls-display-wrapper {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    margin-right: -20px;
+
+    .game-img {
+      order: 4;
+
+      img {
+        margin-top: 45px;
+        margin-right: -50px;
+        height: 79.5%;
+        width: 70%;
+      }
+    }
+
+    .controls-text {
+      display: flexbox;
+      text-align: center;
+      font-size: 22px;
+      margin-top: 45px;
+      margin-left: -145px;
+      padding: 50px;
+      color: red;
+      background-color: black;
+      order: 4;
+    }
+  }
+
+  .issued-challenge {
+    display: flexbox;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-right: -20px;
+    color: red;
+    background-color: black;
+    order: 5;
+  }
+
+  @include responsive(phone) {
+    font-size: 43.75%;
+  }
+
+  @include responsive(tablet) {
+    font-size: 50%;
+  }
+
+  @include responsive(desktop) {
+    font-size: 75%;
+  }
+
+  @include responsive(LGdesktop) {
+    font-size: 100%;
+  }
 }
