@@ -1,90 +1,25 @@
 .content-page-wrapper {
-  .history-text {
-    display: flexbox;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 75px;
-    margin-bottom: -45px;
-    margin-right: -20px;
-    color: red;
-    background-color: black;
-    order: 1;
-  }
-
   .programmer-company-wrapper {
     display: grid;
-    grid-template-columns: 0.3fr 1fr 0.3fr;
-    margin-right: -20px;
+    grid-template-columns: 1fr;
 
     .armanto-img {
-      order: 2;
-
+      order: 1;
+      text-align: center;
       img {
-        margin-top: 45px;
-        margin-right: -50px;
-        height: 59.1%;
-        width: 60%;
+        height: 75vh;
+        width: 15vw;
       }
     }
 
     .programmer-history-text {
+      order: 2;
       text-align: center;
       font-size: 25px;
-      margin-top: 45px;
-      margin-left: -285px;
-      margin-right: -285px;
-      margin-bottom: 272px;
-      padding: 100px;
+      margin-top: -7.43%;
+      padding: 3%;
       color: red;
       background-color: black;
-      order: 2;
     }
-
-    .fun-fact {
-      margin-top: 145px;
-    }
-
-    .logo {
-      order: 2;
-
-      img {
-        align-items: flex-end;
-        margin-top: 45px;
-        margin-left: 285px;
-        height: 59.1%;
-        width: 60%;
-      }
-    }
-  }
-
-  .other-titles-text {
-    display: flexbox;
-    text-align: center;
-    font-size: 25px;
-    margin-top: -272px;
-    margin-bottom: 0px;
-    margin-right: -20px;
-    padding: 26px;
-    color: red;
-    background-color: black;
-    order: 3;
-  }
-
-  @include responsive(phone) {
-    font-size: 43.75%;
-    height: 25vh;
-    width: 15rem;
-  }
-
-  @include responsive(tablet) {
-    font-size: 50%;
-  }
-
-  @include responsive(desktop) {
-    font-size: 75%;
-  }
-
-  @include responsive(LGdesktop) {
-    font-size: 100%;
   }
 }

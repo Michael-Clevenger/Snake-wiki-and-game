@@ -3,12 +3,6 @@ import React from "react";
 export default function () {
   return (
     <div className="content-page-wrapper">
-      <div className="history-text">
-        Snake is a game that originated on mobile. It is actually the game that
-        paved the way for mobile gaming as we see it today. Without further
-        adieu, let's begin.
-      </div>
-
       <div className="programmer-company-wrapper">
         <div className="armanto-img">
           <img
@@ -18,6 +12,11 @@ export default function () {
         </div>
 
         <div className="programmer-history-text">
+          Snake is a game that originated on mobile. It is actually the game
+          that paved the way for mobile gaming as we see it today. Without
+          further adieu, let's begin.
+          <br />
+          <br />
           The man responsible for spearheading the mobile gaming movement is
           Taneli Armanto, a design engineer in Nokia. He took inspiration from
           the arcade game Blockade, which had been released by Gremlin in 1976.
@@ -29,27 +28,19 @@ export default function () {
           released on the Nokia platform such as Snake Xenzia, Snake EX 1 and 2,
           Snakes (The first 3D iteration of the game,) Snake II and III, and
           Snake Subsonic.
-          <div className="fun-fact">
-            Fun Fact: There is actually a version of snake built specifically to
-            run on certain graphing calculators, such as the TI-89 series
-            graphing calculators!
-          </div>
+          <br />
+          <br />
+          Fun Fact: There is actually a version of snake built specifically to
+          run on certain graphing calculators, such as the TI-89 series graphing
+          calculators!
+          <br />
+          <br />
+          There have been many other titles released both on the Nokia platform
+          and as separate standalone games. I could list them all here, but the
+          list is extremely long. If you're interested in viewing all of the
+          titles, they can be found at
+          https://gamia-archive.fandom.com/wiki/Snake_(video_game)
         </div>
-
-        <div className="logo">
-          <img
-            src="https://www.nokia.com/sites/default/files/styles/scale_543_x_375_gallery/public/media/nokia_white_logo.png"
-            alt="logo"
-          />
-        </div>
-      </div>
-
-      <div className="other-titles-text">
-        There have been many other titles released both on the Nokia platform
-        and as separate standalone games. I could list them all here, but the
-        list is extremely long. If you're interested in viewing all of the
-        titles, they can be found at
-        https://gamia-archive.fandom.com/wiki/Snake_(video_game)
       </div>
     </div>
   );

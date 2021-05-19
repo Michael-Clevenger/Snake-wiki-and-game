@@ -1,37 +1,42 @@
-import React from "react";
-import { withRouter } from "react-router";
+import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
-const NavigationComponent = () => {
-  return (
-    <div className="test">
-      <div className="page-nav-links">
-        <div className="nav-link-wrapper">
-          <NavLink exact to="/" activeClassName="nav-link-active">
-            HOME
-          </NavLink>
-        </div>
+export default class NavigationComponent extends Component {
+  constructor() {
+    super();
+  }
 
-        <div className="nav-link-wrapper">
-          <NavLink exact to="/history" activeClassName="nav-link-active">
-            HISTORY
-          </NavLink>
-        </div>
+  render() {
+    return (
+      <div className="nav-wrapper">
+        <div className="middle-nav">
+          <div className="nav-link-wrapper">
+            <NavLink exact to="/" activeClassName="nav-link-active">
+              HOME
+            </NavLink>
+          </div>
 
-        <div className="nav-link-wrapper">
-          <NavLink exact to="/tutorial" activeClassName="nav-link-active">
-            TUTORIAL
-          </NavLink>
-        </div>
+          <div className="nav-link-wrapper">
+            <NavLink to="/history" activeClassName="nav-link-active">
+              HISTORY
+            </NavLink>
+          </div>
 
-        <div className="nav-link-wrapper">
-          <NavLink exact to="/play" activeClassName="nav-link-active">
-            PLAY
-          </NavLink>
+          <div className="nav-link-wrapper">
+            <NavLink to="/tutorial" activeClassName="nav-link-active">
+              TUTORIAL
+            </NavLink>
+          </div>
+
+          <div className="nav-link-wrapper">
+            <NavLink to="/play-game" activeClassName="nav-link-active">
+              PLAY
+            </NavLink>
+          </div>
+
+          {false ? <button>Add PLAY</button> : null}
         </div>
       </div>
-    </div>
-  );
-};
-
-export default withRouter(NavigationComponent);
+    );
+  }
+}

@@ -1,34 +1,33 @@
-.test {
-  background-color: black;
-  padding: 30px;
+.nav-wrapper {
+  display: flex;
+  justify-content: left;
   width: 100%;
+  padding: 0.5%;
 
-  .page-nav-links {
+  .middle-nav {
     display: flex;
-    justify-content: center;
+  }
 
-    .nav-link-wrapper {
-      display: flex;
-      height: 23px;
-      border-bottom: 1px solid transparent;
-      transition: 0.5s ease-in-out;
-      margin-left: 150px;
-      margin-right: 150px;
-      text-transform: uppercase;
-      font-size: 1.5rem;
+  .nav-link-wrapper {
+    height: 30px;
+    font-size: 30px;
+    border-bottom: 1px solid transparent;
+    margin-right: 20px;
+    text-transform: uppercase;
 
-      a {
-        color: red;
-        text-decoration: none;
-        &:hover {
-          color: greenyellow;
-        }
+    a {
+      color: red;
+      text-decoration: none;
+      &:hover {
+        color: greenyellow;
+        transition: 0.5s ease-in-out;
       }
+    }
 
-      .nav-link-active {
-        border-bottom: 1px solid black;
-        color: red;
-      }
+    .nav-link-active {
+      border-bottom: 1px solid black;
+      color: red;
+      background-color: black;
     }
   }
 }

@@ -35,6 +35,9 @@
   },
   "homepage": "https://github.com/bottega-code-school/js-builder",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@material-ui/core": "^4.11.4",
     "ajv": "6.12.0",
     "autoprefixer": "^9.1.0",
@@ -62,6 +65,7 @@
     "html-webpack-plugin": "^3.2.0",
     "iframe-resizer": "^4.3.2",
     "include-media": "^1.4.10",
+    "material-ui": "^0.20.2",
     "mongoose": "^5.12.9",
     "node-sass": "^4.13.1",
     "postcss-loader": "^2.1.6",

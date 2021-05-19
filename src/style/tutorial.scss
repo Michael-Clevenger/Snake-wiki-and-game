@@ -108,6 +108,8 @@
 
   @include responsive(phone) {
     font-size: 43.75%;
+    height: 25vh;
+    width: 15rem;
   }
 
   @include responsive(tablet) {

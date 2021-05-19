@@ -5,6 +5,8 @@ import Home from "./pages/home";
 import Tutorial from "./pages/tutorial";
 import History from "./pages/history";
 import Game from "./pages/play-game";
+import Auth from "./pages/auth";
+import Icons from "../helpers/icons";
 // import { Router, Route, Switch } from "react-router";
 
 export default class App extends Component {
@@ -17,6 +19,7 @@ export default class App extends Component {
 
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route path="/auth" component={Auth} />
               <Route path="/history" component={History} />
               <Route path="/tutorial" component={Tutorial} />
               <Route path="/play" component={Game} />
@@ -27,3 +30,4 @@ export default class App extends Component {
     );
   }
 }
+<i class="fas fa-sign-in-alt"></i>;
