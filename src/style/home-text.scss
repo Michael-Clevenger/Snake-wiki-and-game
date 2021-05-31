@@ -8,44 +8,27 @@
   height: 100%;
   display: flexbox;
 
-  @include responsive(phone) {
-    font-size: 43.75%;
-    height: 25vh;
-    width: 15rem;
+  .home-header-text {
+    font-size: 50px;
+    display: flexbox;
+    padding: 3%;
+    text-align: center;
+    margin-left: 480px;
+    margin-right: 480px;
+    font-family: fantasy;
+    color: red;
+    background-color: black;
+    order: 1;
   }
 
-  @include responsive(tablet) {
-    font-size: 50%;
+  .home-body-text {
+    display: flexbox;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-right: -20px;
+    color: red;
+    background-color: black;
+    order: 2;
   }
-
-  @include responsive(desktop) {
-    font-size: 75%;
-  }
-
-  @include responsive(LGdesktop) {
-    font-size: 100%;
-  }
-}
-
-.home-header-text {
-  font-size: 50px;
-  display: flexbox;
-  text-align: center;
-  margin-left: 480px;
-  margin-right: 480px;
-  font-family: fantasy;
-  color: red;
-  background-color: black;
-  order: 1;
-}
-
-.home-body-text {
-  display: flexbox;
-  text-align: center;
-  font-size: 30px;
-  margin-top: 45px;
-  margin-right: -20px;
-  color: red;
-  background-color: black;
-  order: 2;
 }

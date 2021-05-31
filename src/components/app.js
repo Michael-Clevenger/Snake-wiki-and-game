@@ -22,7 +22,7 @@ export default class App extends Component {
               <Route path="/auth" component={Auth} />
               <Route path="/history" component={History} />
               <Route path="/tutorial" component={Tutorial} />
-              <Route path="/play" component={Game} />
+              <Route path="/play-game" component={Game} />
             </Switch>
           </div>
         </Router>
